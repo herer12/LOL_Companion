@@ -1,0 +1,24 @@
+name: Funktionsidee
+description: Eine mögliche Erweiterung vorschlagen
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Vorgeschlagene Lösung
+      description: Wie könnte die Funktion aussehen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Andere Ansätze, die du erwogen hast
+    validations:
+      required: false

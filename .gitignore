@@ -1,0 +1,22 @@
+# Lokale Geheimnisse und Konfiguration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Betriebssysteme
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editoren
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporäre Dateien und Logs
+*.log
+tmp/
+temp/
